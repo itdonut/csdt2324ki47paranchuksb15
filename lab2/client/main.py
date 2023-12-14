@@ -24,8 +24,8 @@ def send_and_recv(data):
 def main():
     request = '    Hello;'
 
-    print('Request: ', request)
-    print('Received data: ',  send_and_recv(request))
+    print('Start data: ', request)
+    print('Received from HW data: ',  send_and_recv(request))
 
 
 if __name__ == "__main__":
